@@ -19,7 +19,7 @@ vehiculo avance.
 Para poder usarlo debemos importar el proyecto en algun IDE de tu eleccion y simplemente ejecutar la aplicación.
 Una vez ejecutada saldra un pequeño menu con las acciones del vehiculo, arrancar, parar, avanzar, calcular la velocidad y almacenarla.
 
-## Caracteristicas<a id="caracteristicas"></a>
+## Caracteristicas
 - Herencia de clases
 - Interfaz
 - Poliformismo
