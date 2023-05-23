@@ -4,7 +4,7 @@
 - [Uso](#uso)
 - [Caracteristicas](#caracteristicas)
 
-## Descripción
+## Descripción<a id="descripción"></a>
 Este proyecto consta de 3 paquetes, es.java.interfaces,es.java.vehiculo y es.java.vehiculo.principal.
 En el paquete es.java.interfaces tenemos una interfaz donde declaramos todos los metodos comunes.
 En el paquete es.java.vehiculo tenemos una clase padre llamada Vehiculo del que salen 2 clases mas, Marino y Terrestre que heredan de Vehiculo.
@@ -15,11 +15,11 @@ En el paquete es.java.vehiculo.principal es donde se encuentra nuestra clase mai
 Su utilidad es muy sencilla, se trata de simular las acciones de un vehiculo, arrancar, parar, avanzar, calcular la velocidad y almacenarla cada vez que que el 
 vehiculo avance.
 
-## Uso
+## Uso<a id="uso"></a>
 Para poder usarlo debemos importar el proyecto en algun IDE de tu eleccion y simplemente ejecutar la aplicación.
 Una vez ejecutada saldra un pequeño menu con las acciones del vehiculo, arrancar, parar, avanzar, calcular la velocidad y almacenarla.
 
-## Caracteristicas
+## Caracteristicas<a id="caracteristicas"></a>
 - Herencia de clases
 - Interfaz
 - Poliformismo
