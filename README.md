@@ -1,8 +1,8 @@
 # JavaMaster
 ## Tabla de contenidos
--[Descripción](#descripción)
-
--[Uso](#uso)
+- [Descripción](#descripción)
+- [Uso](#uso)
+- [Caracteristicas](#caracteristicas)
 
 ## Descripción
 Este proyecto consta de 3 paquetes, es.java.interfaces,es.java.vehiculo y es.java.vehiculo.principal.
@@ -18,4 +18,9 @@ vehiculo avance.
 ## Uso
 Para poder usarlo debemos importar el proyecto en algun IDE de tu eleccion y simplemente ejecutar la aplicación.
 Una vez ejecutada saldra un pequeño menu con las acciones del vehiculo, arrancar, parar, avanzar, calcular la velocidad y almacenarla.
+
+## Caracteristicas
+- Herencia de clases
+- Interfaz
+- Poliformismo
 
