@@ -53,7 +53,7 @@ El código implementa una estructura de clases para representar vehículos y per
 + 29-05-2023: 
 	- Se documenta y genera el javadoc
 	- Se modifican las clases moto,coche y barco para poder utilizarlas correctamente en el menu
-	- Se modifica el menu, se crea un menu principal desde el que podemos elegir el vehiculo a usar y nos manda a otro menu desde el que realizamos las acciones 		del vehiculo y se modifican los case 2 de los submenus para evitar introducir letras:
+	- Se modifica el menu, se crea un menu principal desde el que podemos elegir el vehiculo a usar y nos manda a otro menu desde el que realizamos las acciones 		del vehiculo, despues se modifican los case 2 de los submenus para evitar introducir letras:
 ````Java
 	Scanner scanner = new Scanner(System.in);
 		int opcion = 0;
