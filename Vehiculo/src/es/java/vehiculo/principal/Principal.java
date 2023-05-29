@@ -20,7 +20,6 @@ import es.java.vehiculo.Moto;
  * 
  * @author sinensia Juan Luis España
  */
-
 public class Principal {
 
 	public static void main(String[] args) {

@@ -3,14 +3,14 @@ package es.java.vehiculo;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
-  * Clase hija de Terrestre que representa un vehículo de tipo moto.
- * Implementa la interfaz Conducible.
- * @author sinensia Juan Luis España
- *
- */
 import es.java.interfaces.Conducible;
 
+/**
+ * Clase hija de Terrestre que representa un vehículo de tipo moto. Implementa
+ * la interfaz Conducible.
+ * 
+ * @author sinensia Juan Luis España
+ */
 public class Moto extends Terrestre implements Conducible {
 
 	private List<Double> tacometro; // Tacometro para almacenar las velocidades del trayecto

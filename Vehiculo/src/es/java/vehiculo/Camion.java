@@ -2,6 +2,12 @@ package es.java.vehiculo;
 
 import java.util.ArrayList;
 
+
+
+import java.util.List;
+
+import es.java.interfaces.Conducible;
+
 /**
  * Clase hija de Terrestre que representa un vehículo de tipo camión.
  * Implementa la interfaz Conducible.
@@ -9,11 +15,6 @@ import java.util.ArrayList;
  * @author sinensia Juan Luis España
  *
  */
-
-import java.util.List;
-
-import es.java.interfaces.Conducible;
-
 public class Camion extends Terrestre implements Conducible {
 
 	private List<Double> tacometro; // Tacometro para almacenar las velocidades del trayecto
@@ -114,16 +115,20 @@ public class Camion extends Terrestre implements Conducible {
 		}
 	}
 	
-/**
- * @param velocidad Parametro que recoge la velocidad y luego se almacena en el arrayList
- * Metodo al que le pasas un parametro y almacena las velocidades en un arrayList
- */
+	/**
+	 * @param velocidad Parametro que recoge la velocidad y luego se almacena en el arrayList
+	 * Metodo al que le pasas un parametro y almacena las velocidades en un arrayList
+	 */
 	@Override
 	public void almacenarVelocidad(double velocidad) {
 		this.tacometro.add(velocidad);
 
 	}
 
+	/**
+	 * 
+	 * @return tacometro
+	 */
 	public List<Double> getTacometro() {
 		return this.tacometro;
 	}

@@ -3,15 +3,16 @@ package es.java.vehiculo;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
-  * Clase hija de Maritimo que representa un vehículo de tipo barco.
- * Implementa la interfaz Conducible.
- * @author sinensia Juan Luis España
- *
- */
+
 
 import es.java.interfaces.Conducible;
 
+/**
+ * Clase hija de Maritimo que representa un vehículo de tipo barco.
+* Implementa la interfaz Conducible.
+* @author sinensia Juan Luis España
+*
+*/
 public class Barco extends Marino implements Conducible {
 
 	private List<Double> tacometro; // Tacometro para almacenar las velocidades del trayecto
