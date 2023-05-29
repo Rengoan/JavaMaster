@@ -27,7 +27,7 @@ public abstract class Vehiculo {
 	 * @param potencia  del vehiculo
 	 */
 
-	public Vehiculo(String matricula, String color, String modelo, int potencia) {
+	protected Vehiculo(String matricula, String color, String modelo, int potencia) {
 		super();
 		this.matricula = matricula;
 		this.color = color;
@@ -44,7 +44,7 @@ public abstract class Vehiculo {
 	 * @param espacioRecorrido Para calcular el
 	 */
 
-	public Vehiculo() {
+	protected Vehiculo() {
 		arrancado = false;
 		tiempoInicial = 0.0;
 		tiempoActual = 0.0;

@@ -3,7 +3,9 @@ package es.java.vehiculo;
 import java.util.ArrayList;
 
 /**
- * Clase hija de Terrestre > Vehiculo
+ * Clase hija de Terrestre que representa un vehículo de tipo camión.
+ * Implementa la interfaz Conducible.
+ *
  * @author sinensia Juan Luis España
  *
  */
@@ -18,12 +20,12 @@ public class Camion extends Terrestre implements Conducible {
 
 	public Camion(String matricula, String color, String modelo, int potencia, int nRuedas, List<Double> tacometro) {
 		super(matricula, color, modelo, potencia, nRuedas);
-		this.tacometro = tacometro; // Prueba para almacenar la velocidad
+		this.tacometro = tacometro; // Inicializar la lista de velocidades
 	}
 
 	public Camion(String matricula, String color, String modelo, int potencia, int nRuedas) {
 		super(matricula, color, modelo, potencia, nRuedas);
-		this.tacometro = new ArrayList<>(); // Inicializar la lista
+		this.tacometro = new ArrayList<>(); // Inicializar una lista vacía para almacenar las velocidades
 
 	}
 

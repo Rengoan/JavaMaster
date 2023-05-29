@@ -1,8 +1,8 @@
 package es.java.vehiculo;
 
 /**
- * Clase intermedia para distinguir entre marinos y terrestres, es este caso es
- * la rama de terrestres.
+ * Clase intermedia para distinguir entre marinos y terrestres, en este caso es
+ * la rama de vehículos terrestres.
  * 
  * @author sinensia Juan Luis España
  *
