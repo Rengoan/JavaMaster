@@ -29,6 +29,11 @@ public class Camion extends Terrestre implements Conducible {
 
 	}
 
+	/**
+	 * Metodo de la interfaz Conducible que nos muestra las caracteristicas del
+	 * camion
+	 * 
+	 */
 	@Override
 	public void conducir() {
 
@@ -37,6 +42,13 @@ public class Camion extends Terrestre implements Conducible {
 
 	}
 
+	/**
+	 * @param metros , Se pasan por teclado cuando quieras avanzar Se le pasan los
+	 *               metros que deseemos y si el vehiculo esta arrancado coge el
+	 *               tiempo actual del sistema, despues se lo resta al tiempo
+	 *               inicial y nos dice uando hemos avanzado desde que arrancamos el
+	 *               vehiculo
+	 */
 	@Override
 	public void avanzar(double metros) {
 
@@ -53,6 +65,10 @@ public class Camion extends Terrestre implements Conducible {
 		}
 	}
 
+	/**
+	 * Metodo utilizado para detener un vehiculo
+	 * 
+	 */
 	@Override
 	public void parar() {
 
@@ -66,6 +82,10 @@ public class Camion extends Terrestre implements Conducible {
 		}
 	}
 
+	/**
+	 * Metodo utilizado para comprobar si un vehiculo esta arrancado. Si no lo esta
+	 * empieza a correr el tiempo, si lo esta, te avisa que esta arrancado
+	 */
 	@Override
 	public void arrancar() {
 
@@ -79,6 +99,9 @@ public class Camion extends Terrestre implements Conducible {
 		}
 	}
 
+	/**
+	 * Metodo utilizado para calcular la velocidad recorrida en el espacio y tiempo
+	 */
 	@Override
 	public double velocidad() {
 
@@ -90,7 +113,11 @@ public class Camion extends Terrestre implements Conducible {
 			return 0.0;
 		}
 	}
-
+	
+/**
+ * @param velocidad Parametro que recoge la velocidad y luego se almacena en el arrayList
+ * Metodo al que le pasas un parametro y almacena las velocidades en un arrayList
+ */
 	@Override
 	public void almacenarVelocidad(double velocidad) {
 		this.tacometro.add(velocidad);
