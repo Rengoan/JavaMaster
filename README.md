@@ -5,7 +5,7 @@
 - [Caracteristicas](#caracteristicas)
 - [Actualizaciones](#actualizaciones)
 
-## Descripción
+### Descripción
 El código ofrece una forma **modular** y **reutilizable** de representar y trabajar con diferentes tipos de vehículos.
 
 - Vehiculo: Esta es la clase base abstracta que representa un vehículo en general. Tiene propiedades como matricula, color, modelo, potencia, etc.
@@ -16,11 +16,11 @@ El código ofrece una forma **modular** y **reutilizable** de representar y trab
 
 
 
-## Uso
+### Uso
 Para poder usarlo debemos importar el proyecto en algun IDE de tu eleccion y simplemente ejecutar la aplicación.
 Una vez ejecutada saldra un pequeño menu con los vehiculos disponible. Una vez seleccionado el vehículo podremos realizar las diferentes acciones posibles como arrancar, parar, avanzar, calcular la velocidad y almacenarla.
 
-## Caracteristicas
+### Caracteristicas
 1. Clase **Vehiculo** (abstracta):
 	- Es la clase padre que representa los vehículos en general.
 	- Tiene atributos como matricula, color, modelo, potencia, entre otros.
@@ -48,7 +48,7 @@ Una vez ejecutada saldra un pequeño menu con los vehiculos disponible. Una vez 
 
 El código implementa una estructura de clases para representar vehículos y permite interactuar con ellos a través de métodos como arrancar, parar, avanzar, calcular velocidad, etc. También proporciona la funcionalidad para almacenar y mostrar las velocidades registradas durante el trayecto de los vehículos.
 
-## Actualizaciones
+### Actualizaciones
 
 + 29-05-2023: 
 	- Se documenta y genera el javadoc
