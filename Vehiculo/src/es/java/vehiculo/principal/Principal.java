@@ -108,9 +108,15 @@ public class Principal {
 					System.out.println();
 					System.out.println("Introduce los metros recorridos");
 
-					metros = scanner.nextDouble();
-					System.out.println();
-					c1.avanzar(metros);
+					if (scanner.hasNextDouble()) {
+						metros = scanner.nextDouble();
+						scanner.nextLine(); // Limpiar el búfer después de leer el número
+						System.out.println();
+						c1.avanzar(metros);
+					} else {
+						System.out.println("Entrada inválida. Debes ingresar un número válido.");
+						scanner.nextLine(); // Limpiar el búfer en caso de entrada no válida
+					}
 					break;
 				case 3:
 					// Obtener y mostrar la velocidad del camión
@@ -189,9 +195,15 @@ public class Principal {
 					double metros = 0.0;
 					System.out.println();
 					System.out.println("Introduce los metros recorridos");
-					metros = scanner.nextDouble();
-					System.out.println();
-					m1.avanzar(metros);
+					if (scanner.hasNextDouble()) {
+						metros = scanner.nextDouble();
+						scanner.nextLine(); // Limpiar el búfer después de leer el número
+						System.out.println();
+						m1.avanzar(metros);
+					} else {
+						System.out.println("Entrada inválida. Debes ingresar un número válido.");
+						scanner.nextLine(); // Limpiar el búfer en caso de entrada no válida
+					}
 					break;
 				case 3:
 					// Obtener y mostrar la velocidad de la moto
@@ -270,9 +282,15 @@ public class Principal {
 					double metros = 0.0;
 					System.out.println();
 					System.out.println("Introduce los metros recorridos");
-					metros = scanner.nextDouble();
-					System.out.println();
-					co.avanzar(metros);
+					if (scanner.hasNextDouble()) {
+						metros = scanner.nextDouble();
+						scanner.nextLine(); // Limpiar el búfer después de leer el número
+						System.out.println();
+						co.avanzar(metros);
+					} else {
+						System.out.println("Entrada inválida. Debes ingresar un número válido.");
+						scanner.nextLine(); // Limpiar el búfer en caso de entrada no válida
+					}
 					break;
 				case 3:
 					// Obtener y mostrar la velocidad del coche
@@ -352,9 +370,15 @@ public class Principal {
 					double metros = 0.0;
 					System.out.println();
 					System.out.println("Introduce los metros recorridos");
-					metros = scanner.nextDouble();
-					System.out.println();
-					b1.avanzar(metros);
+					if (scanner.hasNextDouble()) {
+						metros = scanner.nextDouble();
+						scanner.nextLine(); // Limpiar el búfer después de leer el número
+						System.out.println();
+						b1.avanzar(metros);
+					} else {
+						System.out.println("Entrada inválida. Debes ingresar un número válido.");
+						scanner.nextLine(); // Limpiar el búfer en caso de entrada no válida
+					}
 					break;
 				case 3:
 					// Obtener y mostrar la velocidad del barco
