@@ -1,4 +1,4 @@
-# JavaMaster
+# Proyecto Vehiculos
 ## Tabla de contenidos
 - [Descripción](#descripción)
 - [Uso](#uso)
